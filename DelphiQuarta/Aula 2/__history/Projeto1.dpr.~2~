@@ -1,0 +1,29 @@
+program Projeto1;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+var
+  meunumero, meunumero2: Integer;
+  meutexto: string;
+
+
+begin
+  try
+
+    meunumero := 10;
+
+    Readln(meutexto);
+
+    Writeln('Meu texto é:' + meutexto);
+    Readln;
+
+  except
+
+
+  end;
+end.

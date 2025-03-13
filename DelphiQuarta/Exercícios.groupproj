@@ -1,0 +1,144 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DC7C38A3-74FD-4FC9-870E-1A1758478436}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Aula 2\Exercício1\Exercício1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Aula 2\Exercício2\Exercício2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Aula 2\Exercício3\Exercício3.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Aula 2\Exercício4\Exercício4.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Aula 2\Exercício5\Exercício5.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Aula 2\Exercício6\Exercício6.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Aula 2\Exercício7\Exercício7.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Aula 2\Exercício8\Exercício8.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Aula 2\Exercício9\Exercício9.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Aula 2\Exercício10\Exercício10.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Exercício1">
+        <MSBuild Projects="Aula 2\Exercício1\Exercício1.dproj"/>
+    </Target>
+    <Target Name="Exercício1:Clean">
+        <MSBuild Projects="Aula 2\Exercício1\Exercício1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exercício1:Make">
+        <MSBuild Projects="Aula 2\Exercício1\Exercício1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Exercício2">
+        <MSBuild Projects="Aula 2\Exercício2\Exercício2.dproj"/>
+    </Target>
+    <Target Name="Exercício2:Clean">
+        <MSBuild Projects="Aula 2\Exercício2\Exercício2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exercício2:Make">
+        <MSBuild Projects="Aula 2\Exercício2\Exercício2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Exercício3">
+        <MSBuild Projects="Aula 2\Exercício3\Exercício3.dproj"/>
+    </Target>
+    <Target Name="Exercício3:Clean">
+        <MSBuild Projects="Aula 2\Exercício3\Exercício3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exercício3:Make">
+        <MSBuild Projects="Aula 2\Exercício3\Exercício3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Exercício4">
+        <MSBuild Projects="Aula 2\Exercício4\Exercício4.dproj"/>
+    </Target>
+    <Target Name="Exercício4:Clean">
+        <MSBuild Projects="Aula 2\Exercício4\Exercício4.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exercício4:Make">
+        <MSBuild Projects="Aula 2\Exercício4\Exercício4.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Exercício5">
+        <MSBuild Projects="Aula 2\Exercício5\Exercício5.dproj"/>
+    </Target>
+    <Target Name="Exercício5:Clean">
+        <MSBuild Projects="Aula 2\Exercício5\Exercício5.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exercício5:Make">
+        <MSBuild Projects="Aula 2\Exercício5\Exercício5.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Exercício6">
+        <MSBuild Projects="Aula 2\Exercício6\Exercício6.dproj"/>
+    </Target>
+    <Target Name="Exercício6:Clean">
+        <MSBuild Projects="Aula 2\Exercício6\Exercício6.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exercício6:Make">
+        <MSBuild Projects="Aula 2\Exercício6\Exercício6.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Exercício7">
+        <MSBuild Projects="Aula 2\Exercício7\Exercício7.dproj"/>
+    </Target>
+    <Target Name="Exercício7:Clean">
+        <MSBuild Projects="Aula 2\Exercício7\Exercício7.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exercício7:Make">
+        <MSBuild Projects="Aula 2\Exercício7\Exercício7.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Exercício8">
+        <MSBuild Projects="Aula 2\Exercício8\Exercício8.dproj"/>
+    </Target>
+    <Target Name="Exercício8:Clean">
+        <MSBuild Projects="Aula 2\Exercício8\Exercício8.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exercício8:Make">
+        <MSBuild Projects="Aula 2\Exercício8\Exercício8.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Exercício9">
+        <MSBuild Projects="Aula 2\Exercício9\Exercício9.dproj"/>
+    </Target>
+    <Target Name="Exercício9:Clean">
+        <MSBuild Projects="Aula 2\Exercício9\Exercício9.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exercício9:Make">
+        <MSBuild Projects="Aula 2\Exercício9\Exercício9.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Exercício10">
+        <MSBuild Projects="Aula 2\Exercício10\Exercício10.dproj"/>
+    </Target>
+    <Target Name="Exercício10:Clean">
+        <MSBuild Projects="Aula 2\Exercício10\Exercício10.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exercício10:Make">
+        <MSBuild Projects="Aula 2\Exercício10\Exercício10.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Exercício1;Exercício2;Exercício3;Exercício4;Exercício5;Exercício6;Exercício7;Exercício8;Exercício9;Exercício10"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Exercício1:Clean;Exercício2:Clean;Exercício3:Clean;Exercício4:Clean;Exercício5:Clean;Exercício6:Clean;Exercício7:Clean;Exercício8:Clean;Exercício9:Clean;Exercício10:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Exercício1:Make;Exercício2:Make;Exercício3:Make;Exercício4:Make;Exercício5:Make;Exercício6:Make;Exercício7:Make;Exercício8:Make;Exercício9:Make;Exercício10:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
